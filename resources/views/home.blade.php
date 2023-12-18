@@ -4,6 +4,9 @@
 
 @section('content')
  <main>
-    Home page
+    <section class="container">
+        <h1>products</h1>
+        <div class="row">class</div>
+    </section>
  </main>
 @endsection

@@ -32,7 +32,7 @@ php artisan preset:ui bootstrap
 npm install
 npm install --save @fortawesome/fontawesome-free
 nel file vite.config.js aggiungo la linea '~@fortawesome': path.resolve(__dirname, 'node_modules/@fortawesome'),
-aggiungere in cima ad app.scss in css $fa-font-path: "../fonts/font-awesome" !default;
+aggiungere in cima ad app.scss in css $fa-font-path: "../webfonts" !default;
 e poi aggiungere subito sotto 
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
